@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <title>Meipaly</title>
 
         <!-- FONT AWESOME -->
         <link
@@ -16,10 +16,9 @@
         />
 
         <!-- GOOGLE FONT -->
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
-            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&amp;display=swap"
             rel="stylesheet"
         />
 
@@ -43,436 +42,468 @@
 
         <!-- CSS STYLE -->
         <link rel="stylesheet" href="style.css" />
+
+        <!-- JS STYLE -->
+        <script defer src="./js/index.js"></script>
     </head>
     <body>
-        <header>
-            <div class="container header__container">
-                <span class="logo">Meiplay</span>
-                <nav>
-                    <a href="#">Home</a>
-                    <a href="#">Servicce</a>
-                    <a href="#">Showcase</a>
-                    <a href="#">Blog</a>
-                    <a href="#">About Us</a>
-                    <a href="#">Contact</a>
-                </nav>
+        <header class="header_section">
+            <div class="container">
+                <div class="header">
+                    <div class="logo">
+                        <a href=""
+                            ><i class="fa-brands fa-atlassian"></i> Meiplay</a
+                        >
+                    </div>
+                    <nav>
+                        <ul>
+                            <li class="active">
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <a href="#">Servicce</a>
+                            </li>
+                            <li>
+                                <a href="#">Showcase</a>
+                            </li>
+                            <li>
+                                <a href="#">Blog</a>
+                            </li>
+                            <li>
+                                <a href="#">About Us</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
         </header>
-
-        <section class="banner">
-            <div class="banner__container">
-                <p>WELCOME TO MEIPALY AGENCY</p>
-                <h2>
-                    SMART WEB
-                    <br />
-                    DESIGN AGENCY
-                </h2>
-                <button>read more</button>
-                <br />
-                <i class="fa fa-chevron-down"></i>
-            </div>
-        </section>
-
-        <section class="carousel">
-            <div class="container">
-                <div class="carousel__title">
-                    <h3 class="heading-1">SERVICES WE ARE OFFERING</h3>
-                    <h2 class="heading-2">
-                        WE DESIGN DIGITAL PRODUCTS THAT HELP GROW BUSINESSES.
+        <main>
+            <section class="banner">
+                <div class="banner__container">
+                    <p>WELCOME TO MEIPALY AGENCY</p>
+                    <h2>
+                        SMART WEB
+                        <br />
+                        DESIGN AGENCY
                     </h2>
-                    <p class="heading-3">
-                        We are committed to providing our customers with
-                        exceptional service while offering our employees the
-                        best training.
-                    </p>
+                    <button>read more</button>
+                    <br />
+                    <i class="fa fa-chevron-down"></i>
                 </div>
-                <div class="carousel__list">
-                    <div class="carousel__item">
-                        <div class="item__content">
-                            <i class="fa fa-money-bill"></i>
-                            <p>
-                                Website <br />
-                                devolopement
-                            </p>
-                        </div>
-                    </div>
-                    <div class="carousel__item">
-                        <div class="item__content">
-                            <i class="fa fa-money-bill"></i>
-                            <p>
-                                Website <br />
-                                devolopement
-                            </p>
-                        </div>
-                    </div>
-                    <div class="carousel__item">
-                        <div class="item__content">
-                            <i class="fa fa-money-bill"></i>
-                            <p>
-                                Website <br />
-                                devolopement
-                            </p>
-                        </div>
-                    </div>
-                    <div class="carousel__item">
-                        <div class="item__content">
-                            <i class="fa fa-money-bill"></i>
-                            <p>
-                                Website <br />
-                                devolopement
-                            </p>
-                        </div>
-                    </div>
-                    <div class="carousel__item">
-                        <div class="item__content">
-                            <i class="fa fa-money-bill"></i>
-                            <p>
-                                Website <br />
-                                devolopement
-                            </p>
-                        </div>
-                    </div>
-                    <div class="carousel__item">
-                        <div class="item__content">
-                            <i class="fa fa-money-bill"></i>
-                            <p>
-                                Website <br />
-                                devolopement
-                            </p>
-                        </div>
-                    </div>
-                    <div class="carousel__item">
-                        <div class="item__content">
-                            <i class="fa fa-money-bill"></i>
-                            <p>
-                                Website <br />
-                                devolopement
-                            </p>
-                        </div>
-                    </div>
-                    <div class="carousel__item">
-                        <div class="item__content">
-                            <i class="fa fa-money-bill"></i>
-                            <p>
-                                Website <br />
-                                devolopement
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+            </section>
 
-        <section class="blogs">
-            <div class="container">
-                <div class="blogs__title">
-                    <h3 class="heading-1">SERVICES WE ARE OFFERING</h3>
-                    <h2 class="heading-2">LATEST BLOG POSTS</h2>
-                    <p class="heading-3">
-                        We are committed to providing our customers with
-                        exceptional service while offering our employees the
-                        best training.
-                    </p>
-                </div>
-                <div class="blogs__list">
-                    <div class="blogs__item">
-                        <img
-                            class="rounded"
-                            src="./img/grid-metro-1.jpg"
-                            alt=""
-                        />
-                        <div class="blogs__overplay">
-                            <div class="blogs__icon">
-                                <a
-                                    data-fancybox="gallery"
-                                    href="./img/grid-metro-1.jpg"
-                                >
-                                    <i class="fa fa-search-plus"></i>
-                                </a>
-                            </div>
-                            <div class="blogs__content">
-                                <p class="blogs__logo">LOGO</p>
-                                <h3 class="blogs__text">FLIPPIN BIRD</h3>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="blogs__item">
-                        <img src="./img/grid-metro-2.jpg" alt="" />
-                        <div class="blogs__overplay">
-                            <div class="blogs__icon">
-                                <a
-                                    data-fancybox="gallery"
-                                    href="./img/grid-metro-2.jpg"
-                                >
-                                    <i class="fa fa-search-plus"></i>
-                                </a>
-                            </div>
-                            <div class="blogs__content">
-                                <p class="blogs__logo">LOGO</p>
-                                <h3 class="blogs__text">FLIPPIN BIRD</h3>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="blogs__item">
-                        <img src="./img/grid-metro-3.jpg" alt="" />
-                        <div class="blogs__overplay">
-                            <div class="blogs__icon">
-                                <a
-                                    data-fancybox="gallery"
-                                    href="./img/grid-metro-3.jpg"
-                                >
-                                    <i class="fa fa-search-plus"></i>
-                                </a>
-                            </div>
-                            <div class="blogs__content">
-                                <p class="blogs__logo">LOGO</p>
-                                <h3 class="blogs__text">FLIPPIN BIRD</h3>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="blogs__item">
-                        <img src="./img/grid-metro-4.jpg" alt="" />
-                        <div class="blogs__overplay">
-                            <div class="blogs__icon">
-                                <a
-                                    data-fancybox="gallery"
-                                    href="./img/grid-metro-4.jpg"
-                                >
-                                    <i class="fa fa-search-plus"></i>
-                                </a>
-                            </div>
-                            <div class="blogs__content">
-                                <p class="blogs__logo">LOGO</p>
-                                <h3 class="blogs__text">FLIPPIN BIRD</h3>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="blogs__item">
-                        <img src="./img/grid-metro-5.jpg" alt="" />
-                        <div class="blogs__overplay">
-                            <div class="blogs__icon">
-                                <a
-                                    data-fancybox="gallery"
-                                    href="./img/grid-metro-5.jpg"
-                                >
-                                    <i class="fa fa-search-plus"></i>
-                                </a>
-                            </div>
-                            <div class="blogs__content">
-                                <p class="blogs__logo">LOGO</p>
-                                <h3 class="blogs__text">FLIPPIN BIRD</h3>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="blogs__item">
-                        <img src="./img/grid-metro-6.jpg" alt="" />
-                        <div class="blogs__overplay">
-                            <div class="blogs__icon">
-                                <a
-                                    data-fancybox="gallery"
-                                    href="./img/grid-metro-6.jpg"
-                                >
-                                    <i class="fa fa-search-plus"></i>
-                                </a>
-                            </div>
-                            <div class="blogs__content">
-                                <p class="blogs__logo">LOGO</p>
-                                <h3 class="blogs__text">FLIPPIN BIRD</h3>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="blogs__item">
-                        <img src="./img/grid-metro-7.jpg" alt="" />
-                        <div class="blogs__overplay">
-                            <div class="blogs__icon">
-                                <a
-                                    data-fancybox="gallery"
-                                    href="./img/grid-metro-7.jpg"
-                                >
-                                    <i class="fa fa-search-plus"></i>
-                                </a>
-                            </div>
-                            <div class="blogs__content">
-                                <p class="blogs__logo">LOGO</p>
-                                <h3 class="blogs__text">FLIPPIN BIRD</h3>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="blogs__item">
-                        <img src="./img/grid-metro-8.jpg" alt="" />
-                        <div class="blogs__overplay">
-                            <div class="blogs__icon">
-                                <a
-                                    data-fancybox="gallery"
-                                    href="./img/grid-metro-8.jpg"
-                                >
-                                    <i class="fa fa-search-plus"></i>
-                                </a>
-                            </div>
-                            <div class="blogs__content">
-                                <p class="blogs__logo">LOGO</p>
-                                <h3 class="blogs__text">FLIPPIN BIRD</h3>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="blogs__item">
-                        <img src="./img/grid-metro-9.jpg" alt="" />
-                        <div class="blogs__overplay">
-                            <div class="blogs__icon">
-                                <a
-                                    data-fancybox="gallery"
-                                    href="./img/grid-metro-9.jpg"
-                                >
-                                    <i class="fa fa-search-plus"></i>
-                                </a>
-                            </div>
-                            <div class="blogs__content">
-                                <p class="blogs__logo">LOGO</p>
-                                <h3 class="blogs__text">FLIPPIN BIRD</h3>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="blogs__item">
-                        <img src="./img/grid-metro-10.jpg" alt="" />
-                        <div class="blogs__overplay">
-                            <div class="blogs__icon">
-                                <a
-                                    data-fancybox="gallery"
-                                    href="./img/grid-metro-10.jpg"
-                                >
-                                    <i class="fa fa-search-plus"></i>
-                                </a>
-                            </div>
-                            <div class="blogs__content">
-                                <p class="blogs__logo">LOGO</p>
-                                <h3 class="blogs__text">FLIPPIN BIRD</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="number-section">
-            <div class="container">
-                <div class="number">
-                    <div class="number_item">
-                        <p class="number_counter">8,705</p>
-                        <p class="number-text">PROJECTS COMPLETED</p>
-                    </div>
-                    <div class="number_item">
-                        <p class="number_counter">480</p>
-                        <p class="number-text">ACTIVE CLIENTS</p>
-                    </div>
-                    <div class="number_item">
-                        <p class="number_counter">625</p>
-                        <p class="number-text">CUPS OF COFFEE</p>
-                    </div>
-                    <div class="number_item">
-                        <p class="number_counter">9,774</p>
-                        <p class="number-text">HAPPY CLIENTS</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="experience-section">
-            <div class="container">
-                <div class="experience__title">
-                    <h3 class="heading-1">HOW DO WE WORKS</h3>
-                    <h2 class="heading-2">DIGITAL EXPERIENCE</h2>
-                    <p class="heading-3">
-                        We are committed to providing our customers with
-                        exceptional service while offering our employees the
-                        best training.
-                    </p>
-                </div>
-                <div class="experience__video">
-                    <video
-                        controls
-                        src="./img/video.mp4"
-                        poster="./img/home_slider.jpg"
-                    ></video>
-                </div>
-            </div>
-        </section>
-
-        <section class="contact-section">
-            <div class="container">
-                <div class="contact">
-                    <div class="contact__title">
-                        <h2 class="heading-2">CONTACT</h2>
+            <section class="carousel">
+                <div class="container">
+                    <div class="carousel__title">
+                        <h3 class="heading-1">SERVICES WE ARE OFFERING</h3>
+                        <h2 class="heading-2">
+                            WE DESIGN DIGITAL PRODUCTS THAT HELP GROW
+                            BUSINESSES.
+                        </h2>
                         <p class="heading-3">
-                            Thank you for your interest in our website & our
-                            services. If you have any questions, please write us
-                            a message now!
+                            We are committed to providing our customers with
+                            exceptional service while offering our employees the
+                            best training.
                         </p>
                     </div>
-                    <div class="contact__content">
-                        <div class="contact__map">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15677.980968126514!2d106.6686637!3d10.7733302!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb490b64157cb9dc1!2sCybersoft!5e0!3m2!1sen!2s!4v1618408657872!5m2!1sen!2s"
-                                width="100%"
-                                height="100%"
-                                style="border: 0"
-                                allowfullscreen=""
-                                loading="lazy"
-                            ></iframe>
+                    <div class="carousel__list">
+                        <div class="carousel__item">
+                            <div class="item__content">
+                                <i class="fab fa-autoprefixer"></i>
+                                <p>
+                                    Website <br />
+                                    devolopement
+                                </p>
+                            </div>
                         </div>
-                        <div class="contact__form">
-                            <input type="text" placeholder="Username" />
-                            <input type="text" placeholder="Email Address" />
-                            <textarea
-                                name=""
-                                id=""
-                                cols="30"
-                                rows="10"
-                                placeholder="Ask a Question"
-                            ></textarea>
-                            <button type="submit" form="form1" value="Submit">
-                                Submit
-                            </button>
+                        <div class="carousel__item">
+                            <div class="item__content">
+                                <i class="fab fa-500px"></i>
+                                <p>
+                                    Website <br />
+                                    devolopement
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel__item">
+                            <div class="item__content">
+                                <i class="fa fa-blog"></i>
+                                <p>
+                                    Website <br />
+                                    devolopement
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel__item">
+                            <div class="item__content">
+                                <i class="fab fa-battle-net"></i>
+                                <p>
+                                    Website <br />
+                                    devolopement
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel__item">
+                            <div class="item__content">
+                                <i class="fa fa-memory"></i>
+                                <p>
+                                    Website <br />
+                                    devolopement
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel__item">
+                            <div class="item__content">
+                                <i class="fa fa-dice-d6"></i>
+                                <p>
+                                    Website <br />
+                                    devolopement
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel__item">
+                            <div class="item__content">
+                                <i class="fab fa-autoprefixer"></i>
+                                <p>
+                                    Website <br />
+                                    devolopement
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel__item">
+                            <div class="item__content">
+                                <i class="fab fa-500px"></i>
+                                <p>
+                                    Website <br />
+                                    devolopement
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <footer></footer>
-        <h1
-            class="mt-12 mb-8 px-6 text-center text-lg md:text-2xl font-semibold"
-        >
-            Facebook inspired design, customized background
-        </h1>
+            </section>
 
-        <div class="flex flex-wrap gap-5 justify-center max-w-5xl mx-auto px-6">
-            <a
-                data-fancybox="gallery"
-                href="https://lipsum.app/id/46/1600x1200"
-            >
-                <img class="rounded" src="https://lipsum.app/id/46/200x150" />
-            </a>
-            <a
-                data-fancybox="gallery"
-                href="https://lipsum.app/id/47/1600x1200"
-            >
-                <img class="rounded" src="https://lipsum.app/id/47/200x150" />
-            </a>
-            <a
-                data-fancybox="gallery"
-                href="https://lipsum.app/id/51/1600x1200"
-            >
-                <img class="rounded" src="https://lipsum.app/id/51/200x150" />
-            </a>
-        </div>
+            <section class="blogs">
+                <div class="container">
+                    <div class="blogs__title">
+                        <h3 class="heading-1">SERVICES WE ARE OFFERING</h3>
+                        <h2 class="heading-2">LATEST BLOG POSTS</h2>
+                        <p class="heading-3">
+                            We are committed to providing our customers with
+                            exceptional service while offering our employees the
+                            best training.
+                        </p>
+                    </div>
+                    <div class="blogs__list">
+                        <div class="blogs__item">
+                            <img
+                                class="rounded"
+                                src="./img/grid-metro-1.jpg"
+                                alt=""
+                            />
+                            <div class="blogs__overplay">
+                                <div class="blogs__icon">
+                                    <a
+                                        data-fancybox="gallery"
+                                        href="./img/grid-metro-1.jpg"
+                                    >
+                                        <i class="fa fa-search-plus"></i>
+                                    </a>
+                                </div>
+                                <div class="blogs__content">
+                                    <p class="blogs__logo">LOGO</p>
+                                    <h3 class="blogs__text">FLIPPIN BIRD</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="blogs__item">
+                            <img src="./img/grid-metro-2.jpg" alt="" />
+                            <div class="blogs__overplay">
+                                <div class="blogs__icon">
+                                    <a
+                                        data-fancybox="gallery"
+                                        href="./img/grid-metro-2.jpg"
+                                    >
+                                        <i class="fa fa-search-plus"></i>
+                                    </a>
+                                </div>
+                                <div class="blogs__content">
+                                    <p class="blogs__logo">LOGO</p>
+                                    <h3 class="blogs__text">FLIPPIN BIRD</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="blogs__item">
+                            <img src="./img/grid-metro-3.jpg" alt="" />
+                            <div class="blogs__overplay">
+                                <div class="blogs__icon">
+                                    <a
+                                        data-fancybox="gallery"
+                                        href="./img/grid-metro-3.jpg"
+                                    >
+                                        <i class="fa fa-search-plus"></i>
+                                    </a>
+                                </div>
+                                <div class="blogs__content">
+                                    <p class="blogs__logo">LOGO</p>
+                                    <h3 class="blogs__text">FLIPPIN BIRD</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="blogs__item">
+                            <img src="./img/grid-metro-4.jpg" alt="" />
+                            <div class="blogs__overplay">
+                                <div class="blogs__icon">
+                                    <a
+                                        data-fancybox="gallery"
+                                        href="./img/grid-metro-4.jpg"
+                                    >
+                                        <i class="fa fa-search-plus"></i>
+                                    </a>
+                                </div>
+                                <div class="blogs__content">
+                                    <p class="blogs__logo">LOGO</p>
+                                    <h3 class="blogs__text">FLIPPIN BIRD</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="blogs__item">
+                            <img src="./img/grid-metro-5.jpg" alt="" />
+                            <div class="blogs__overplay">
+                                <div class="blogs__icon">
+                                    <a
+                                        data-fancybox="gallery"
+                                        href="./img/grid-metro-5.jpg"
+                                    >
+                                        <i class="fa fa-search-plus"></i>
+                                    </a>
+                                </div>
+                                <div class="blogs__content">
+                                    <p class="blogs__logo">LOGO</p>
+                                    <h3 class="blogs__text">FLIPPIN BIRD</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="blogs__item">
+                            <img src="./img/grid-metro-6.jpg" alt="" />
+                            <div class="blogs__overplay">
+                                <div class="blogs__icon">
+                                    <a
+                                        data-fancybox="gallery"
+                                        href="./img/grid-metro-6.jpg"
+                                    >
+                                        <i class="fa fa-search-plus"></i>
+                                    </a>
+                                </div>
+                                <div class="blogs__content">
+                                    <p class="blogs__logo">LOGO</p>
+                                    <h3 class="blogs__text">FLIPPIN BIRD</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="blogs__item">
+                            <img src="./img/grid-metro-7.jpg" alt="" />
+                            <div class="blogs__overplay">
+                                <div class="blogs__icon">
+                                    <a
+                                        data-fancybox="gallery"
+                                        href="./img/grid-metro-7.jpg"
+                                    >
+                                        <i class="fa fa-search-plus"></i>
+                                    </a>
+                                </div>
+                                <div class="blogs__content">
+                                    <p class="blogs__logo">LOGO</p>
+                                    <h3 class="blogs__text">FLIPPIN BIRD</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="blogs__item">
+                            <img src="./img/grid-metro-8.jpg" alt="" />
+                            <div class="blogs__overplay">
+                                <div class="blogs__icon">
+                                    <a
+                                        data-fancybox="gallery"
+                                        href="./img/grid-metro-8.jpg"
+                                    >
+                                        <i class="fa fa-search-plus"></i>
+                                    </a>
+                                </div>
+                                <div class="blogs__content">
+                                    <p class="blogs__logo">LOGO</p>
+                                    <h3 class="blogs__text">FLIPPIN BIRD</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="blogs__item">
+                            <img src="./img/grid-metro-9.jpg" alt="" />
+                            <div class="blogs__overplay">
+                                <div class="blogs__icon">
+                                    <a
+                                        data-fancybox="gallery"
+                                        href="./img/grid-metro-9.jpg"
+                                    >
+                                        <i class="fa fa-search-plus"></i>
+                                    </a>
+                                </div>
+                                <div class="blogs__content">
+                                    <p class="blogs__logo">LOGO</p>
+                                    <h3 class="blogs__text">FLIPPIN BIRD</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="blogs__item">
+                            <img src="./img/grid-metro-10.jpg" alt="" />
+                            <div class="blogs__overplay">
+                                <div class="blogs__icon">
+                                    <a
+                                        data-fancybox="gallery"
+                                        href="./img/grid-metro-10.jpg"
+                                    >
+                                        <i class="fa fa-search-plus"></i>
+                                    </a>
+                                </div>
+                                <div class="blogs__content">
+                                    <p class="blogs__logo">LOGO</p>
+                                    <h3 class="blogs__text">FLIPPIN BIRD</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="number-section">
+                <div class="container">
+                    <div class="number">
+                        <div class="number_item">
+                            <p class="number_counter">8,705</p>
+                            <p class="number-text">PROJECTS COMPLETED</p>
+                        </div>
+                        <div class="number_item">
+                            <p class="number_counter">480</p>
+                            <p class="number-text">ACTIVE CLIENTS</p>
+                        </div>
+                        <div class="number_item">
+                            <p class="number_counter">625</p>
+                            <p class="number-text">CUPS OF COFFEE</p>
+                        </div>
+                        <div class="number_item">
+                            <p class="number_counter">9,774</p>
+                            <p class="number-text">HAPPY CLIENTS</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="experience-section">
+                <div class="container">
+                    <div class="experience__title">
+                        <h3 class="heading-1">HOW DO WE WORKS</h3>
+                        <h2 class="heading-2">DIGITAL EXPERIENCE</h2>
+                        <p class="heading-3">
+                            We are committed to providing our customers with
+                            exceptional service while offering our employees the
+                            best training.
+                        </p>
+                    </div>
+                    <div class="experience__video">
+                        <video
+                            controls
+                            src="./img/video.mp4"
+                            poster="./img/home_slider.jpg"
+                        ></video>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contact-section">
+                <div class="container">
+                    <div class="contact">
+                        <div class="contact__title">
+                            <h2 class="heading-2">CONTACT</h2>
+                            <p class="heading-3">
+                                Thank you for your interest in our website & our
+                                services. If you have any questions, please
+                                write us a message now!
+                            </p>
+                        </div>
+                        <div class="contact__content">
+                            <div class="contact__map">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15677.980968126514!2d106.6686637!3d10.7733302!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb490b64157cb9dc1!2sCybersoft!5e0!3m2!1sen!2s!4v1618408657872!5m2!1sen!2s"
+                                    width="100%"
+                                    height="100%"
+                                    style="border: 0"
+                                    allowfullscreen=""
+                                    loading="lazy"
+                                ></iframe>
+                            </div>
+                            <div class="contact__form">
+                                <input type="text" placeholder="Username" />
+                                <input
+                                    type="text"
+                                    placeholder="Email Address"
+                                />
+                                <textarea
+                                    name=""
+                                    id=""
+                                    cols="30"
+                                    rows="10"
+                                    placeholder="Ask a Question"
+                                ></textarea>
+                                <button
+                                    type="submit"
+                                    form="form1"
+                                    value="Submit"
+                                >
+                                    Submit
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer-section">
+            <div class="container">
+                <div class="footer">
+                    <p>© 2021 UI-CYBERSOFT. ALL RIGHTS RESERVED.</p>
+
+                    <div class="footer_isocal">
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <a href="#" class="backToTop">
+            <i class="fa fa-angle-up"></i>
+        </a>
 
         <!-- JQUERY -->
         <script
